@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pro.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wapper">
+      <div class="grandBox"></div>
+
+      <div class="row option">
+        <div class="column duration">
+          <p>direction</p>
+
+          <div class="seclect-box">
+            <select name="" id="">
+              <option value="to top">Top</option>
+              <option value="to right top">right top</option>
+              <option value="to right">right</option>
+              <option value="to right bottom">right bottom</option>
+              <option value="to bottom">bottom</option>
+              <option value="to left bottom">left bottom</option>
+              <option value="to left">left</option>
+              <option value="to left top" selected>left top</option>
+            </select>
+          </div>
+        </div>
+        <div class="column color">
+          <p>colors</p>
+          <input type="color" value="#5665e9" />
+          <input type="color" value="#a271f8" />
+        </div>
+      </div>
+
+      <textarea name="" id="" cols="30" rows="10" class="row" disabled>
+background: linear-gradient(to left top,#977dee,#6878ff);
+        </textarea
+      >
+
+      <div class="row button">
+        <button class="refresh">refresh colors</button>
+        <button class="copy">copy code</button>
+      </div>
+    </div>
+
+    <script src="pro.js"></script>
+  </body>
+</html>
